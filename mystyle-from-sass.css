@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 5em;
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 3em;
+    font-variant: small-caps;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+  }
+  nav ul {
+    padding: 0;
+    text-align: center;
+  }
+  nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  header img {
+    width: 960px;
+  }
+
+  .activity img {
+    width: 400px;
+    margin-right: 10px;
+    float: left;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  .activity li {
+    list-style-position: inside;
+  }
+
+  .experience input, .experience textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+  }
+  
+  .experience {
+    margin-bottom: 20px;
+  }
+
+  .center {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  nav a:link {
+    color: black;
+  }
+
+  nav a:visited {
+    color: black;
+  }
+
+  nav a:hover {
+    color: blue;
+  }
+
+  nav a:active {
+    color: gray;
+  }

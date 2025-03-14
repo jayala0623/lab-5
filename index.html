@@ -7,62 +7,78 @@
         content="Laguna Brava Ecotourism promotes sustainable travel and activities to the Laguna Brava lake in western Guatemala.">
 
     <title>Laguna Brava Ecotourism</title>
+
+    <link rel="stylesheet" href="css/mystyle.css">
 </head>
 
 <body>
-    <header>
-        <img src="img/panoramic-laguna-brava-2000.jpeg" alt="Laguna Brava lake" title="Laguna Brava">
-        <h1>Explore Laguna Brava</h1>
+    <header class="container">
+        <img src="img/panoramic-laguna-brava-2000.jpeg" width="960" height="236"
+            alt="Panoramic view of Laguna Brava lake" title="Laguna Brava">
+        <nav>
+            <ul>
+                <li><a href="#things-to-do">Things to Do</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h1>Explore Laguna Brava</h1>
+        </div>
     </header>
 
-    <main>
-        <article>
-            <img src="img/kayaking.jpeg" alt="View of the lake with kayak on the horizon">
-            <h2>Kayaking</h2>
-            <p>
-                Cross the four kilometers in a kayak guided by a local guide. <strong>This guided visit is
-                    physically demanding, and we recommend it for only those in excellent physical
-                    condition.</strong>
-            </p>
-            <ul>
-                <li>Duration: 3 hours approx.</li>
-                <li>Price: $40 USD</li>
-                <li>Minimum: 1 pax</li>
-            </ul>
+    <main id="things-to-do" class="container">
+        <article class="activity-row">
+            <div class="activity-col">
+                <img src="img/kayaking.jpeg" width="400" height="400" alt="View of the lake with kayak on the horizon">
+            </div>
+            <div class="activity-col">
+                <h2>Kayaking</h2>
+                <p>
+                    Cross the four kilometres in a kayak guided by a local guide. <strong>This guided visit is
+                        physically demanding, and we recommend it for only those in excellent physical
+                        condition.</strong>
+                </p>
+                <ul>
+                    <li><span class="bold">Duration: </span>3 hours approx.</li>
+                    <li><span class="bold">Price: </span>$40 USD</li>
+                    <li><span class="bold">Minimum: </span>1 pax</li>
+                </ul>
             </div>
         </article>
 
-        <article>
-            <h2>Boat Rides</h2>
-            <p>
-                Board a rowing boat that takes to around the most beautiful parts of the lake. This guided visit
-                does not require physical effort.
-            </p>
-            <ul>
-                <li>Duration: 3 hours approx.</li>
-                <li>Price: $40 USD</li>
-                <li>Minimum: 4 pax</li>
-            </ul>
-            <img src="img/boat-ride.jpeg" alt="View of the lake with a kayak on the horizon">
+        <article class="activity-row">
+            <div class="activity-col">
+                <h2>Boat Rides</h2>
+                <p>
+                    Board a rowing boat that takes to around the most beautiful parts of the lake. This guided visit
+                    does not require physical effort.
+                </p>
+                <ul>
+                    <li><span class="bold">Duration: </span>3 hours approx.</li>
+                    <li><span class="bold">Price: </span>$40 USD</li>
+                    <li><span class="bold">Minimum: </span>4 pax</li>
+                </ul>
+            </div>
+            <div class="activity-col">
+                <img src="img/boat-ride.jpeg" width="400" height="400" alt="View of rustic boat on the lake's shore">
+            </div>
         </article>
-
     </main>
 
-    <aside>
+    <aside id="contact" class="container">
         <section>
-            <h2>Have you traveled to Laguna Brava?</h2>
+            <h2>Have you travelled to Laguna Brava?</h2>
             <p>
                 We want to know about your experiences.
             </p>
         </section>
 
-        <!-- A form asking for page viewer's experiences -->
-        <form>
-            <label for="name">Name: </label>
+        <form id="experience_form">
+            <label for="name" class="bold">Name: </label>
             <input type="text" name="name" id="name" placeholder="Write your name"><br>
-            <label for="email">Email: </label>
+            <label for="email" class="bold">Email: </label>
             <input type="email" name="email" id="email" placeholder="Write your email"><br>
-            <label for="experience">Experience: </label>
+            <label for="experience" class="bold">Experience: </label>
             <textarea name="experience" id="experience"
                 placeholder="Please share with us your experience."></textarea><br>
             <input type="submit" value="Submit">
@@ -70,7 +86,7 @@
     </aside>
 
     <footer>
-        &copy; 2022 Laguna Brava Ecotourism
+        &copy; 2024 Laguna Brava Ecotourism
     </footer>
 </body>
 
